@@ -1,0 +1,33 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input , button{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container input , button{
+    padding: 10px 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#cityElem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
